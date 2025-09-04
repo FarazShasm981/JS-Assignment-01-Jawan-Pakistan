@@ -208,3 +208,42 @@
 //Question # 08 End
 
 //Question # 09 Start
+// var Dollar = 283.99;
+// var saudiRiyal = 75.09;
+// document.write(`Total Currency in PKR :  ${ Dollar*10 + saudiRiyal*25}`)
+//Question # 09 End
+
+//Question # 10 Start
+// var randomNumber = 33;
+// document.write("Result is : "+ ((randomNumber + 5)*10) / 2)
+//Question # 10 End
+
+//Question # 11 Start
+// var birthYear = 1998;
+// var currYear = 2025;
+// var age = currYear - birthYear;
+// document.write("Current Year : "+ currYear + "<br>")
+// document.write("Birth Year : "+ birthYear + "<br>")
+// document.write("Your age is : "+ age)
+//Question # 11 End
+
+//Question # 12 Start
+// var radius = 20;
+// var $pi = 3.142;
+// var calCircumference = 2* $pi* radius;
+// var calArea = $pi* radius * radius;
+// document.write("Radius of a circle is : " + radius + "<br>")  
+// document.write("The circumference is : " + calCircumference + "<br>");  
+// document.write("The area is : " + calArea)  
+//Question # 12 End
+
+//Question # 13 Start
+// var favSnacks = "Chocolate Chip";
+// var currAge = 26;
+// var maxAge = 60;
+// var perDay = 5;
+// var age = maxAge - currAge;
+// var totalAge = age * 5;
+// document.write("Favourite Snack : " + favSnacks + "<br>Current Age : " + currAge + "<br>Maximum Age : "+ maxAge + "<br>Amount of Snacks per day : " + perDay + "<br>You will need " + totalAge + " chocolate chip to last you until the ripe old age of "+maxAge)
+
+//Question # 13 End
