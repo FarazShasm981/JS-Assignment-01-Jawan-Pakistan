@@ -192,10 +192,19 @@
 //Question # 06 End
 
 //Question # 07 Start
-var price1 = 650;
-var quantity1 = 3;
-var price2 = 100;
-var quantity2 = 7;
-var shippingCharges = 100;
-document.write(`Total Cost of Your Order Is : ${price1*quantity1 + price2*quantity2 + shippingCharges}`)
+// var price1 = 650;
+// var quantity1 = 3;
+// var price2 = 100;
+// var quantity2 = 7;
+// var shippingCharges = 100;
+// document.write(`Total Cost of Your Order Is : ${price1*quantity1 + price2*quantity2 + shippingCharges}`)
 //Question # 07 End
+
+//Question # 08 Start
+// var totalMarks = 980;
+// var obtMarks = 804;
+// var percentage = obtMarks / totalMarks *100;
+// document.write("Percentage : "+ percentage + "%")
+//Question # 08 End
+
+//Question # 09 Start
