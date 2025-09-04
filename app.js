@@ -184,10 +184,18 @@
 //Question # 05 End
 
 //Question # 06 Start
-var celsius = 38;
-document.write(celsius+"<sup>o</sup>C is " + (100-32) * 5/9 + " <sup>o</sup>F <br>")
-var fahrenheit = 150;
-var formula = (fahrenheit -32) / (9/5);
-document.write(fahrenheit+"<sup>o</sup>F is " + formula + " <sup>o</sup>C")
-
+// var celsius = 38;
+// document.write(celsius+"<sup>o</sup>C is " + (100-32) * 5/9 + " <sup>o</sup>F <br>")
+// var fahrenheit = 150;
+// var formula = (fahrenheit -32) / (9/5);
+// document.write(fahrenheit+"<sup>o</sup>F is " + formula + " <sup>o</sup>C")
 //Question # 06 End
+
+//Question # 07 Start
+var price1 = 650;
+var quantity1 = 3;
+var price2 = 100;
+var quantity2 = 7;
+var shippingCharges = 100;
+document.write(`Total Cost of Your Order Is : ${price1*quantity1 + price2*quantity2 + shippingCharges}`)
+//Question # 07 End
