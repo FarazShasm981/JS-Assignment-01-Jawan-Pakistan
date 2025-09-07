@@ -1,4 +1,4 @@
-//! Chapter # 01 
+//! Chapter # 01
 
 //Question # 01 Start
 // alert("Hey User! Welcome to Our Website")
@@ -11,7 +11,7 @@
 //Question # 03 Start
 // alert("Welcome To JS land...\nHappy Coding")
 //Question # 03 End
- 
+
 //Question # 04 Start
 // alert("Welcome to JS land...")
 // alert("Happy Coding!")
@@ -22,7 +22,6 @@
 //Question # 05 End
 
 // Question # 06 and 07 done.......
-
 
 //! Chapter # 02
 
@@ -67,9 +66,7 @@
 // document.write("Yah! I can write HTML content through JavaScript")
 //Question # 08 End
 
-
 // ! CHAPTER # 03
-
 
 //Question # 01 Start
 // var age = 26;
@@ -78,7 +75,7 @@
 
 //Question # 02 Start
 // var visit = 23;
-// alert("You have visited this site "+ visit +" times") 
+// alert("You have visited this site "+ visit +" times")
 //Question # 02 End
 
 //Question # 03 Start
@@ -95,7 +92,6 @@
 //Question # 04 Start
 
 // ! CHAPTER # 04
-
 
 //Question # 01 Start
 // var abc,def,xyz;
@@ -120,7 +116,6 @@
 //Question # 03 Start
 // document.write("<b>Rules for naming JS variables<b> <br> A) Variable names can only contain letters,numbers,dollar sign and underscores.<br> B) Variables must begin with a letters,dollar sign and underscores <br> C) Variable names are case Sensitive <br> D) Variable names should not be JS keywords");
 //Question # 03 End
-
 
 // ! CHAPTER # 05
 
@@ -232,9 +227,9 @@
 // var $pi = 3.142;
 // var calCircumference = 2* $pi* radius;
 // var calArea = $pi* radius * radius;
-// document.write("Radius of a circle is : " + radius + "<br>")  
-// document.write("The circumference is : " + calCircumference + "<br>");  
-// document.write("The area is : " + calArea)  
+// document.write("Radius of a circle is : " + radius + "<br>")
+// document.write("The circumference is : " + calCircumference + "<br>");
+// document.write("The area is : " + calArea)
 //Question # 12 End
 
 //Question # 13 Start
@@ -247,3 +242,62 @@
 // document.write("Favourite Snack : " + favSnacks + "<br>Current Age : " + currAge + "<br>Maximum Age : "+ maxAge + "<br>Amount of Snacks per day : " + perDay + "<br>You will need " + totalAge + " chocolate chip to last you until the ripe old age of "+maxAge)
 
 //Question # 13 End
+
+//! Chapter # 06 to 09
+
+//Question # 1 Start
+// var a = 10;
+// document.write(`Result: <br> The value of a is : ${a} <br> ......................................<br> <br>The Value of ++a is : ${++a} <br> Now the value of ++a is : ${a} <br><br> The value of a++ is : ${a++} <br> Now the value of a++ is : ${a} <br><br>The value of --a is : ${--a}<br>Now the value of --a is : ${a} <br><br> The value of a-- is : ${a--} <br> Now the value of a-- is : ${a}`)
+//Question # 1 End
+
+//Question # 2 Start
+// var a = 2;
+// var b = 1;
+// var result =  --a - --b + ++b + b--;
+// document.write(`The value of <b>a</b> is : ${a} <br> The value of <b>b</b> is :${b}<br> The value of <b>result</b> is : ${result}`)
+//Question # 2 End
+
+//Question # 3 Start
+// var userName = prompt("Enter Your Name");
+// alert(`Welcome ${userName}`)
+//Question # 3 End
+
+//Question # 6 Start
+// var subject1 = prompt("Enter your First Subject Name");
+// var subject2 = prompt("Enter your Second Subject Name");
+// var subject3 = prompt("Enter your Third Subject Name");
+// var totalMarks = 100;
+// var obtMarks1 = parseInt(prompt("Enter your first subjects`s Obtain Marks"));
+// var obtMarks2 = parseInt(prompt("Enter your second subjects`s Obtain Marks"));
+// var obtMarks3 = parseInt(prompt("Enter your third subjects`s Obtain Marks"));
+// var percentage1 = (obtMarks1 / totalMarks) * 100;
+// var percentage2 = (obtMarks2 / totalMarks) * 100;
+// var percentage3 = (obtMarks3 / totalMarks) * 100;
+
+// document.write(`<table>
+//     <tr>
+//     <th>Subject</th>
+//     <th>Total Marks</th>
+//     <th>Obtained Marks</th>
+//     <th>Percentage</th>
+//     </tr>
+//     <tr>
+//     <td>${subject1}</td>
+//     <td>${totalMarks}</td>
+//     <td>${obtMarks1}</td>
+//     <td>${percentage1}%</td>
+//     </tr>
+//     <tr>
+//     <td>${subject2}</td>
+//     <td>${totalMarks}</td>
+//     <td>${obtMarks2}</td>
+//     <td>${percentage2}%</td>
+//     </tr>
+//     <tr>
+//     <td>${subject3}</td>
+//     <td>${totalMarks}</td>
+//     <td>${obtMarks3}</td>
+//     <td>${percentage3}%</td>
+//     </tr>
+//     </table>`);
+//Question # 6 End
